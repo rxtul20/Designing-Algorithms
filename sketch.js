@@ -1,6 +1,6 @@
 var car,wall;
 var speed,weight;
-var deformation;
+var deformation = 0.5*weight*speed*speed/22509;
 function setup() {
   createCanvas(1600,400);
   createSprite(400, 200, 50, 50);
